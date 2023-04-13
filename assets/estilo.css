@@ -1,12 +1,17 @@
 body{
     background: rgb(97, 104, 158);
     font: normal 15pt Arial;
-    background-image: url("/assets/fundo.jpg");
+    background-image: url("fundo.jpg");
+    max-width: 100%;
 }
 
 header{
     color: white;
     text-align: center;
+}
+
+header > h1{
+    text-shadow: 5px 5px 5px black;
 }
 
 section{
